@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+
+    <title>Modelo do Form para teste Bootstrap</title>
+  </head>
+  <body>
+    <div class='container'>
+        <h2 class="page-header">Cadastro de Clientes</h2>
+        <p>
+        <form action="#" method="post" class="form-horizontal">
+            <div class="form-group row">
+                <label for="nome" class="col-sm-1 control-label col-form-label">Nome:</label>
+                <div class="col-sm-7">
+                    <input type="text" name="pNome" class="form-control">
+                    <br>     
+                </div>
+                <label for="cpf" class="col-sm-1 control-label col-form-label">CPF:</label>
+                <div class="col-sm-3">
+                    <input type="text" name="pCpf" placeholder="999.999.999-99" class="form-control">
+                    <br>
+                </div>     
+            </div>
+
+            <div class="form-group row">
+                <label for="email" class="col-sm-1 control-label col-form-label">Email: </label>
+                <div class="col-sm-3">
+                    <input type="email" name="pEmail" placeholder="email@exemplo.com" class="form-control">
+                    <br>
+                </div>
+                <label for="telefone" class="col-sm-1 control-label col-form-label">Telefone:</label>
+                <div class="col-sm-3">
+                    <input type="tel" name="pTel" placeholder="(XX)XXXX-XXXX" class="form-control">
+                    <br>
+                </div>
+                <label for="celular" class="col-sm-1 control-label col-form-label">Celular:</label>
+                <div class="col-sm-3">
+                    <input type="tel" name="pCel" placeholder="(XX)XXXX-XXXX" class="form-control">
+                    <br>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="estado" class="col-sm-1 control-label col-form-label">Estado:</label>
+                <div class="col-sm-5">
+                      <select name="pEstado" class="form-control">
+                              <option value="Espirito Santo">Espirito Santo</option>
+                              <option value="Minas Gerais">Minas Gerais</option>
+                              <option value="Rio de Janeiro">Rio de Janeiro</option>
+                              <option value="Sao Paulo">Sao Paulo</option>
+                      </select>
+                    <br>
+                </div>
+
+                <label for="cidade" class="col-sm-1 control-label col-form-label">Cidade:</label>
+                <div class="col-sm-5">
+                    <input list="cidade" name="pCidade" class="form-control"/>
+                        <datalist id="cidade">
+                            <option value="Alegre">
+                            <option value="Juiz de Fora">
+                            <option value="Rio de Janeiro">
+                            <option value="Sao Paulo">
+                        </datalist>
+                      </div>
+                </div>
+                    
+                </form>
+    </div>    
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="public/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
